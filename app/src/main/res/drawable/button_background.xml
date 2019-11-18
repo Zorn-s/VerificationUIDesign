@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/colorAccent">
+
+
+<item android:state_pressed = "true">
+    <shape android:shape="rectangle">
+        <corners android:radius="20dp"/>
+        <gradient android:startColor="#DB0675"
+        android:endColor="#92050E"/>
+    </shape>
+</item>
+
+    <item android:state_pressed = "false">
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp"/>
+            <gradient android:startColor="#DB0675"
+                android:endColor="#92050E"/>
+        </shape>
+    </item>
+
+</ripple>
